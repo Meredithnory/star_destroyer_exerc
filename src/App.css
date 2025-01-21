@@ -1,0 +1,25 @@
+*{
+  background-color: black;
+}
+.star{
+  position:absolute;
+  color: yellow;
+  height: 6px;
+  width: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star:focus {
+  
+  border: none;
+  outline: none;
+  -webkit-box-shadow:0px 0px 9px 3px rgba(248,255,46,0.9);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(248,255,46,0.9);
+  box-shadow: 0px 0px 9px 3px rgba(248,255,46,0.9);
+}
+
+#space {
+  position:relative;
+}
